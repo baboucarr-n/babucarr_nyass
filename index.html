@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Security Portfolio | Terminal</title>
+    <title>Baboucarr Nyass | Portfolio</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Courier+Prime:wght@400;700&family=VT323&display=swap" rel="stylesheet">
     <style>
@@ -902,7 +902,7 @@
 
     <header>
         <nav>
-            <div class="logo">root@security:~$</div>
+            <div class="logo">baboucarr@terminal:~$</div>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -919,13 +919,13 @@
         <section id="home" class="hero">
             <div class="hero-content">
                 <div class="glitch-wrapper">
-                    <h1>SECURITY EXPERT</h1>
+                    <h1>BABOUCARR NYASS</h1>
                 </div>
-                <div class="typing-text">Penetration Testing | Ethical Hacking | Cyber Defense</div>
+                <div class="typing-text">Cybersecurity Enthusiast | Developer | Data Analyst</div>
                 <p class="hero-description">
-                    Breaking systems to build them stronger. Specialized in offensive security, 
-                    vulnerability assessment, and building resilient defense mechanisms against 
-                    modern cyber threats.
+                    Computer Science student at University of The Gambia with a passion for cybersecurity, 
+                    data analytics, and building innovative solutions. Currently exploring ethical hacking 
+                    on TryHackMe and developing skills in Python, Java, and security fundamentals.
                 </p>
                 <div class="cta-buttons">
                     <a href="#projects" class="btn">View Projects</a>
@@ -948,23 +948,23 @@
                     </div>
                     <div class="terminal-content">
                         <div class="terminal-line">
-                            <span class="terminal-prompt">user@security:~$</span>
+                            <span class="terminal-prompt">baboucarr@security:~$</span>
                             <span class="terminal-command"> cat about.txt</span>
                         </div>
                         <div class="terminal-line terminal-output">
-                            Cybersecurity professional with expertise in
+                            Computer Science student at University of The Gambia
                         </div>
                         <div class="terminal-line terminal-output">
-                            penetration testing, vulnerability research,
+                            passionate about cybersecurity, data analytics, and
                         </div>
                         <div class="terminal-line terminal-output">
-                            and security architecture. Passionate about
+                            developing innovative solutions. Currently learning
                         </div>
                         <div class="terminal-line terminal-output">
-                            finding vulnerabilities before attackers do
+                            ethical hacking on TryHackMe and building projects
                         </div>
                         <div class="terminal-line terminal-output">
-                            and building robust defense systems.
+                            in Python & Java. GPA: 4.21/5.00
                         </div>
                     </div>
                 </div>
@@ -972,18 +972,18 @@
                 <div>
                     <h3 style="color: var(--terminal-cyan); margin-bottom: 1.5rem; font-size: 1.5rem;">Core Competencies</h3>
                     <div class="skills-grid">
+                        <div class="skill-badge">Python (Intermediate)</div>
+                        <div class="skill-badge">Java (Basic)</div>
+                        <div class="skill-badge">Excel & Data Analysis</div>
+                        <div class="skill-badge">SQL (Learning)</div>
                         <div class="skill-badge">Network Security</div>
-                        <div class="skill-badge">Penetration Testing</div>
-                        <div class="skill-badge">Malware Analysis</div>
-                        <div class="skill-badge">Incident Response</div>
-                        <div class="skill-badge">Web App Security</div>
-                        <div class="skill-badge">Threat Hunting</div>
-                        <div class="skill-badge">Red Teaming</div>
-                        <div class="skill-badge">SIEM/SOC</div>
-                        <div class="skill-badge">Cloud Security</div>
-                        <div class="skill-badge">Forensics</div>
-                        <div class="skill-badge">Cryptography</div>
-                        <div class="skill-badge">Risk Assessment</div>
+                        <div class="skill-badge">Ethical Hacking</div>
+                        <div class="skill-badge">TryHackMe</div>
+                        <div class="skill-badge">IT Support</div>
+                        <div class="skill-badge">Linux Fundamentals</div>
+                        <div class="skill-badge">Hardware Troubleshooting</div>
+                        <div class="skill-badge">MS Office Suite</div>
+                        <div class="skill-badge">Data Cleaning</div>
                     </div>
                 </div>
             </div>
@@ -1015,7 +1015,7 @@
                 <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3 class="project-title">Network Scanner</h3>
+                        <h3 class="project-title">Mobile Airtime Logger</h3>
                         <span class="project-status">ACTIVE</span>
                     </div>
                     <div class="project-iframe-container">
@@ -1031,33 +1031,43 @@
                                         font-family: monospace;
                                         color: %2300ff41;
                                     }
-                                    .scan-result {
+                                    .log-entry {
                                         border: 1px solid %2300ff4133;
                                         padding: 10px;
-                                        margin: 5px 0;
+                                        margin: 8px 0;
+                                        border-radius: 4px;
                                         animation: fadeIn 0.5s;
                                     }
                                     @keyframes fadeIn {
-                                        from { opacity: 0; }
-                                        to { opacity: 1; }
+                                        from { opacity: 0; transform: translateY(-10px); }
+                                        to { opacity: 1; transform: translateY(0); }
                                     }
-                                    .ip { color: %2300ffff; }
-                                    .port { color: %23ffff00; }
+                                    .amount { color: %2300ffff; font-weight: bold; }
+                                    .balance { color: %23ffff00; }
+                                    .warning { color: %23ff0040; }
+                                    h3 { color: %2300ff41; margin-bottom: 15px; }
                                 </style>
                             </head>
                             <body>
-                                <h3>Network Scan Results</h3>
-                                <div class='scan-result'>
-                                    <span class='ip'>192.168.1.1</span> - Port <span class='port'>80</span> OPEN
+                                <h3>📱 Airtime Tracker Console</h3>
+                                <div class='log-entry'>
+                                    Top-up: <span class='amount'>D50.00</span><br>
+                                    Date: 2025-05-15<br>
+                                    Balance: <span class='balance'>D50.00</span>
                                 </div>
-                                <div class='scan-result'>
-                                    <span class='ip'>192.168.1.1</span> - Port <span class='port'>443</span> OPEN
+                                <div class='log-entry'>
+                                    Usage: <span class='amount'>-D12.50</span> (Data)<br>
+                                    Date: 2025-05-16<br>
+                                    Balance: <span class='balance'>D37.50</span>
                                 </div>
-                                <div class='scan-result'>
-                                    <span class='ip'>192.168.1.5</span> - Port <span class='port'>22</span> OPEN
+                                <div class='log-entry'>
+                                    Usage: <span class='amount'>-D8.00</span> (Calls)<br>
+                                    Date: 2025-05-17<br>
+                                    Balance: <span class='balance'>D29.50</span>
                                 </div>
-                                <div class='scan-result'>
-                                    <span class='ip'>192.168.1.10</span> - Port <span class='port'>3306</span> OPEN
+                                <div class='log-entry warning'>
+                                    ⚠ Estimated depletion: 3 days<br>
+                                    Average daily usage: D10.17
                                 </div>
                             </body>
                             </html>
@@ -1068,13 +1078,13 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Advanced network reconnaissance tool for discovering active hosts, 
-                            open ports, and running services. Built with Python and Scapy.
+                            Java console application to track airtime top-ups and data usage. 
+                            Features balance prediction using OOP concepts and ArrayList for data management.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Scapy</span>
-                            <span class="tag">Networking</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Console App</span>
                         </div>
                     </div>
                 </div>
@@ -1082,7 +1092,7 @@
                 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3 class="project-title">SQL Injection Tester</h3>
+                        <h3 class="project-title">Found & Lost</h3>
                         <span class="project-status">ACTIVE</span>
                     </div>
                     <div class="project-iframe-container">
@@ -1097,37 +1107,49 @@
                                         background: linear-gradient(135deg, %23151932 0%25, %230a0e27 100%25);
                                         font-family: monospace;
                                         color: %2300ff41;
+                                        font-size: 13px;
                                     }
-                                    .vuln { 
-                                        background: %23ff004020;
-                                        border: 1px solid %23ff0040;
-                                        padding: 10px;
+                                    .menu { 
+                                        background: %231a1f3a;
+                                        border: 2px solid %2300ff41;
+                                        padding: 15px;
                                         margin: 10px 0;
+                                        border-radius: 5px;
                                     }
-                                    .safe {
-                                        background: %2300ff4120;
-                                        border: 1px solid %2300ff41;
+                                    .item {
+                                        background: %230a0e27;
+                                        border-left: 3px solid %2300ffff;
                                         padding: 10px;
-                                        margin: 10px 0;
+                                        margin: 8px 0;
                                     }
+                                    .found { border-left-color: %2300ff41; }
+                                    .lost { border-left-color: %23ff0040; }
+                                    h3 { color: %2300ffff; }
                                 </style>
                             </head>
                             <body>
-                                <h3>SQL Injection Test Results</h3>
-                                <div class='vuln'>
-                                    ⚠ VULNERABILITY DETECTED<br>
-                                    Endpoint: /api/users?id=1<br>
-                                    Type: Time-based blind SQLi
+                                <div class='menu'>
+                                    <h3>🔍 Found & Lost Terminal</h3>
+                                    <p>[1] Log Found Item</p>
+                                    <p>[2] Log Lost Item</p>
+                                    <p>[3] View All Items</p>
+                                    <p>[4] Exit</p>
                                 </div>
-                                <div class='safe'>
-                                    ✓ SECURE<br>
-                                    Endpoint: /api/login<br>
-                                    Properly sanitized
+                                <h3>Recent Items:</h3>
+                                <div class='item found'>
+                                    ✓ FOUND: Blue backpack<br>
+                                    Location: Library<br>
+                                    Date: 2024-11-15
                                 </div>
-                                <div class='vuln'>
-                                    ⚠ VULNERABILITY DETECTED<br>
-                                    Endpoint: /search?q=test<br>
-                                    Type: Union-based SQLi
+                                <div class='item lost'>
+                                    ✗ LOST: Student ID card<br>
+                                    Last seen: Cafeteria<br>
+                                    Date: 2024-11-14
+                                </div>
+                                <div class='item found'>
+                                    ✓ FOUND: Calculator<br>
+                                    Location: Room 203<br>
+                                    Date: 2024-11-13
                                 </div>
                             </body>
                             </html>
@@ -1138,13 +1160,13 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Automated SQLi vulnerability scanner with support for multiple 
-                            injection techniques and database fingerprinting.
+                            Python terminal application for logging and viewing lost/found items on campus. 
+                            Features menu-based interface with list management and conditional logic.
                         </p>
                         <div class="project-tags">
                             <span class="tag">Python</span>
-                            <span class="tag">SQLi</span>
-                            <span class="tag">Web Security</span>
+                            <span class="tag">CLI</span>
+                            <span class="tag">Campus Utility</span>
                         </div>
                     </div>
                 </div>
@@ -1152,8 +1174,8 @@
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3 class="project-title">Password Strength Analyzer</h3>
-                        <span class="project-status">ACTIVE</span>
+                        <h3 class="project-title">TryHackMe Progress Tracker</h3>
+                        <span class="project-status">LEARNING</span>
                     </div>
                     <div class="project-iframe-container">
                         <iframe class="project-iframe" src="data:text/html;charset=utf-8,
@@ -1427,7 +1449,7 @@
                 <a href="https://twitter.com" target="_blank" class="social-link" title="Twitter">
                     <span>🐦</span>
                 </a>
-                <a href="mailto:security@example.com" class="social-link" title="Email">
+                <a href="mailto:bnyass205@gmail.com" class="social-link" title="Email">
                     <span>✉️</span>
                 </a>
                 <a href="https://hackerone.com" target="_blank" class="social-link" title="HackerOne">
@@ -1467,10 +1489,9 @@
 
     <footer>
         <div class="footer-content">
-            <p>© 2026 Security Portfolio. Built with passion for cybersecurity.</p>
+            <p>© 2026 Baboucarr Nyass. Built with passion for technology and cybersecurity.</p>
             <p style="margin-top: 0.5rem; color: var(--text-muted);">
-                "The only truly secure system is one that is powered off, cast in a block of concrete 
-                and sealed in a lead-lined room with armed guards." - Gene Spafford
+                "The best way to predict the future is to invent it." - Alan Kay
             </p>
         </div>
     </footer>
@@ -1606,64 +1627,90 @@
 
         // CV Download
         function downloadCV() {
-            // Create a sample CV content
             const cvContent = `
-CYBERSECURITY PROFESSIONAL
-Resume / Curriculum Vitae
-
-SUMMARY
-========
-Experienced cybersecurity professional specializing in penetration testing,
-vulnerability assessment, and security architecture. Passionate about
-ethical hacking and building robust defense systems.
-
-SKILLS
-======
-- Network Security & Penetration Testing
-- Web Application Security
-- Malware Analysis & Reverse Engineering
-- Incident Response & Forensics
-- Security Automation & Scripting
-- Cloud Security (AWS, Azure)
-- SIEM/SOC Operations
-- Red Team Operations
-
-CERTIFICATIONS
-=============
-- Offensive Security Certified Professional (OSCP)
-- Certified Ethical Hacker (CEH)
-- CompTIA Security+
-- GIAC Security Essentials (GSEC)
-
-EXPERIENCE
-==========
-Senior Security Analyst | 2022 - Present
-- Conducted 50+ penetration tests on web applications and networks
-- Identified and reported critical vulnerabilities
-- Developed custom security tools and automation scripts
-
-Security Engineer | 2020 - 2022
-- Implemented security monitoring and incident response procedures
-- Performed malware analysis and threat hunting
-- Maintained SIEM platform and security infrastructure
+================================================================================
+                            BABOUCARR NYASS
+================================================================================
+New Jeshwang | bnyass205@gmail.com | (+220) 3392441
 
 EDUCATION
-=========
-Bachelor of Science in Cybersecurity
-University of Technology | 2020
+================================================================================
+University of The Gambia                                    Banjul, The Gambia
+BSc in Computer Science                              Expected Graduation: Aug 2028
 
-CONTACT
-=======
-Email: security@example.com
-GitHub: github.com/yourusername
-LinkedIn: linkedin.com/in/yourprofile
+WASSCE Candidate                                              Graduated: Aug 2024
+
+PROJECT EXPERIENCE
+================================================================================
+University of The Gambia                                    Banjul, The Gambia
+Mobile Airtime Logger - Java Console App                        May 2025 - Present
+• Built a Java console app to track airtime top-ups and data usage
+• Used OOP concepts, Array List, and Scanner for user input
+• Added a feature to estimate when balance will run out
+
+Personal Project                                                  New Jeshwang
+Found & Lost - Python Console App                               Nov 2024 - Present
+• Built a simple terminal app for logging and viewing lost/found items on campus
+• Used Python list, conditionals, and loops to manage data
+• Designed a menu-based interface for easy usage of the console application
+
+LEADERSHIP EXPERIENCE
+================================================================================
+Gambia Senior Secondary School                              Banjul, The Gambia
+Senior Prefect                                                  Jan 2023 - Present
+• Developed leadership and teamwork skills through prefect responsibilities
+• Demonstrated strong performance in all subjects (Cumulative GPA: 4.21 / 5.00)
+
+SKILLS & INTERESTS
+================================================================================
+Skills:
+• Communication skills (verbal & good writing skills)
+• Prioritization and Task Management
+• Adaptability
+• Python programming (intermediate level)
+• Java programming (Basic)
+• Basic Understanding of Computer Hardware (Troubleshooting)
+• Intermediate understanding in MS Office (Word & Outlook)
+• Intermediate Excel skill (Data Cleaning & Analysis)
+
+Interests:
+• Technology
+• Data Analytics
+• Cybersecurity
+• Developing innovative solutions to real world problems
+
+SKILLS & LEARNING
+================================================================================
+• Intermediate Python & Java (OOP, data structures)
+• Learning SQL and database basics
+• Cybersecurity fundamentals: network security, ethical hacking practice on 
+  TryHackMe (just starting!)
+• Completed TCM Security Help Desk training (IT support, hardware, Linux 
+  fundamentals, troubleshooting)
+• Excel for data cleaning, reports, dashboards; prepping for Tableau and Power BI
+• Driven to advance tech in The Gambia through security and data
+
+REFERENCES
+================================================================================
+Mr. Jobe (Vice Principal)
+Gambia Senior Secondary School
+Contact: 2624438
+
+Mr. Assan Jahateh (Faculty Officer for School of ITC)
+University of The Gambia
+Contact: 3999703
+
+================================================================================
+                    Generated from portfolio website
+                         © 2026 Baboucarr Nyass
+================================================================================
             `;
 
             const blob = new Blob([cvContent], { type: 'text/plain' });
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'cybersecurity-cv.txt';
+            a.download = 'Baboucarr_Nyass_CV.txt';
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);
